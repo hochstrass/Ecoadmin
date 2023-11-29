@@ -5,15 +5,16 @@
   }
   
   .background-image {
-    width: 96%;
-    height: auto;
+    width: 510px;
+    height: 300px;
     display: block;
+    margin:0;
   }
   
   .text-overlay {
     position: absolute;
     top: 30%;
-    left: 40%;
+    left: 15%;
     transform: translate(-10%, -50%);
     color: blue;
     text-align: left;
@@ -21,7 +22,7 @@
     /* Weitere Stile nach Bedarf */
   }
   .Login-Mail, .Login-Password {
-    width: 330px;
+    width: 380px;
     height: 28px;
     font-size: large;
   }

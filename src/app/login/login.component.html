@@ -1,12 +1,14 @@
 <div class="image-container">
-    <img src="assets/Login.jpeg" class="background-image">
+    <img src="assets/Login-Blatt.jpg" class="background-image">
     <div class="text-overlay">
       <form action="Login_Send()" method="post" class="Login">
-        <input type="text" email="email" placeholder="Email oder Benutzername" class="Login-Mail">
+        <input id="LoginMai" type="text" email="email" placeholder="Email oder Benutzername" class="Login-Mail"
+        (keyup.enter)="DoTab($event)">
         <br>
-        <input type="password" email="Passwort" placeholder="Passwort" class="Login-Password">
+        <input id="LoginPaw" type="password" email="Passwort" placeholder="Passwort" class="Login-Password" 
+        (keyup.enter)="DoTab($event)">
         <br>
-        <input type="submit" value="Login" class="Login-Send">
+        <input type="submit" value="Login" class="Login-Send" (click)="SetFoc('Mai')">
     </form>
     </div>
   </div>
