@@ -1,0 +1,34 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 6px 0 6px 10px;
+  }
+  
+  .background-image {
+    width: 96%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-10%, -50%);
+    color: blue;
+    text-align: left;
+    font-size: 24px;
+    /* Weitere Stile nach Bedarf */
+  }
+  .Login-Mail, .Login-Password {
+    width: 330px;
+    height: 28px;
+    font-size: large;
+  }
+  .Login-Send {
+    width: auto;
+    height: 32px;
+    font-size: large;
+    background-color: turquoise;
+    border-radius: 2px;
+  }

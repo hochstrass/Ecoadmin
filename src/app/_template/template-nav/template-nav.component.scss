@@ -1,0 +1,45 @@
+.nav-item {
+    //Aussehen eines Item
+    margin: 2px 2px 0 2px;
+    background-color: transparent;
+}
+
+.nav-item :hover {
+    //nur wenn die Maus über nav-item geht
+    //background-color: Rgb(255, 255, 255, 0.7);
+    //background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    //border-radius: 4px; //vorsicht, gleich wie in nav-item
+    //font-weight: bold;  //schlecht, macht es breiter
+}
+
+.nav-item :active :focus {
+    //background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    //background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-color {
+    //Aussehen eines Item
+    margin: 2px 2px 0 2px;
+    background-color: transparent;
+    color: black;
+}
+.navbar-color :hover {
+    //nur wenn die Maus über nav-item geht
+    //background-color: Rgb(255, 255, 255, 0.7);
+    background-color: white;
+    color: black;
+    //border-radius: 4px; //vorsicht, gleich wie in nav-item
+    //font-weight: bold;  //schlecht, macht es breiter
+}
+
+
+
